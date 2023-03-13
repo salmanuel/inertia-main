@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+    @apply bg-teal-500;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    @apply px-4 lg:px-0;
+}
+
+.main-nav {
+    @apply flex space-x-2 
+}
+
+.main-nav .main-link {
+    @apply py-4 px-2 text-green-100 font-semibold
+}
+
+.main-nav .main-link:hover {
+    @apply bg-teal-800 duration-300 px-5;
+    /* background-color: #00250c; */
+}
+
+.list-item {
+    @apply border border-gray-300 p-2 rounded hover:bg-gray-200 mb-1
+}
+
+.table {
+    width: 100%;
+}
+
+.table thead tr {
+    @apply bg-teal-800 text-red-100
+}
+
+.table th,
+.table td {
+    @apply p-2 border border-orange-300
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #d6dbd9;
+}
+
+h1 {
+    @apply text-4xl font-medium
+}
+
+.field {
+    @apply rounded p-1 border border-gray-300 w-full
+}
+
+.btn-primary {
+    @apply py-2 rounded bg-teal-500 px-4 text-white disabled:bg-gray-300
+}
+
+.btn-primary:hover {
+    @apply bg-teal-800 duration-300 px-5;
+}
+
+
