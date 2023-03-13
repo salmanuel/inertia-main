@@ -13,7 +13,7 @@
 
 <style>
 	.background {
-		background-image: url('/assets/Inventory.jpeg');
+		background-image: url('/assets/Inventories.jpeg');
 		background-size: 100%;
 		background-repeat: no-repeat;
 		/* width: 100%;
